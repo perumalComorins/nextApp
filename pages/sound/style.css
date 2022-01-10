@@ -1,0 +1,120 @@
+
+.audio-track-lists-section{
+margin-bottom:32px;
+}
+.track-items .track-block.show{
+display: block;
+}
+.track-items .track-block{
+display: none;
+}
+.track-items .track-block:last-child .single-track-list {
+margin-bottom: 0;
+}
+.track-items .single-track-list{
+display: table;
+margin-bottom: 25px;
+}
+.track-items .single-track-list li{
+list-style: none;
+display: table-cell;
+vertical-align: middle;
+}
+.track-items .single-track-list li:first-child{
+width:91px;
+}
+
+.track-items .single-track-list li:last-child{
+padding-left:34px;
+}
+.track-thumbnail-box{
+max-width: 72px;
+float: left;
+margin-right: 30px;
+}
+.track-thumbnail-box .track-thumbnail{
+width:100%;
+}
+.track-items .single-track-list li .track-thumbnail-widget-content{
+min-width:152px;
+}
+.track-thumbnail-widget-content{
+overflow: hidden;
+margin-right:39px;
+}
+.track-thumbnail-widget-content h3{
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: #FFFFFF;
+margin: 0;
+}
+.track-thumbnail-widget-content .track-artist{
+font-style: italic;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+}
+.heart {
+width: 50px;
+height: 50px;
+background:url("/images/heart-thumb.png") no-repeat;
+background-position: center;
+cursor: pointer;
+
+}
+.heart.is-active {
+  background:url("/images/heart-like-thumb.png") no-repeat;
+background-position: center;
+}
+.music-bar-icon{
+margin-right: 12px;
+}
+.track-time-stamp{
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color:#ffffff;
+}
+
+.track-items::-webkit-scrollbar {
+width: 8px;
+}
+.track-items {
+margin-top: 68px;
+list-style:none;
+max-height: 350px;
+overflow-x: hidden;
+overflow-y: scroll;
+scrollbar-width: thin;
+scrollbar-color: var(--audiotrackthumbBG) var(--scrollbarBG);
+}
+.track-items::-webkit-scrollbar-track {
+background: var(--scrollbarBG);
+}
+.track-items::-webkit-scrollbar-thumb {
+background-color: var(--audiotrackthumbBG) ;
+border-radius: 20px;
+border: 8px solid var(--scrollbarBG);
+height:53px;
+}
+.audio-step--werapper.audio-step-1{
+margin-bottom: 305px;
+}
+.audio-step--werapper.audio-step-2{
+margin-bottom: 150px;
+}
+.audio-track-music-player{
+padding-left:35px;
+padding-right:0;
+}
+.fav-track-voice-lists{
+background: #004866;
+box-shadow: inset 10px 4px 39px #005579, inset 0px 4px 4px #3F4045;
+border-radius: 40px;
+height: 181px;
+width:80%;
+}
